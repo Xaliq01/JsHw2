@@ -1,0 +1,38 @@
+body{
+    background-image: url(../img/пол1.avif);
+    background-size: cover;
+    background-position: center;
+}
+.part1{
+    width: 100%;
+    min-height: 585px;
+    /* background-color: bisque; */
+    float: left;
+}
+.part2{
+    width: 100%;
+    min-height: 585px;
+    /* background-color: aqua; */
+    float: left;
+}
+.MrPd0{
+    margin: 0px;
+    padding: 0px;
+}
+#Img1{
+    width:300px ;
+    min-height: 300px;
+    float: left;
+    position: relative;
+    top: 125px;
+    left: 550px;
+}
+#Img2{
+    width: 105px;
+    min-height: 105px;
+    float: left;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+}
